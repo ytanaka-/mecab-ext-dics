@@ -22,6 +22,7 @@ mecabの辞書を拡張するための辞書データ置き場
 
 
 ### MacOS10の場合(homebrew環境)
+    % git clone https://github.com/ytanaka-/mecab-ext-dics.git
     % curl -O https://mecab.googlecode.com/files/mecab-ipadic-2.7.0-20070801.tar.gz
     % tar zxfv mecab-ipadic-2.7.0-20070801.tar.gz
     % cd mecab-ipadic-2.7.0-20070801
