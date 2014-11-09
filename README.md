@@ -14,7 +14,7 @@ mecabの辞書を拡張するための辞書データ置き場
 
 ## mecabの辞書を拡張する
 
-[https://mecab.googlecode.com/svn/trunk/mecab/doc/dic.html]()を参考にしてる
+[https://mecab.googlecode.com/svn/trunk/mecab/doc/dic.html](https://mecab.googlecode.com/svn/trunk/mecab/doc/dic.html)を参考にしてる
 
 ### WikipediaとはてなキーワードのデータをMecabフォーマットにする
 
@@ -39,10 +39,10 @@ mecabの辞書を拡張するための辞書データ置き場
 mecab-dict-indexのところは環境によってpathが異なると思うので注意。-tオプションはバイナリ辞書の文字コード指定で、ここをutf8にしないと形態素解析された結果取得時に文字化けする。
 
 
-ちなみに[http://qiita.com/ysk_1031/items/7f0cfb7e9e4c4b9129c9]()のようなやり方もある。
+ちなみに[http://qiita.com/ysk_1031/items/7f0cfb7e9e4c4b9129c9](http://qiita.com/ysk_1031/items/7f0cfb7e9e4c4b9129c9)のようなやり方もある。
 
 brewでmecab-ipaをインストールすると、Makefileが消失？してしまうので、ソースを取得してる。
 
 
 ### (番外)costの算出
-[http://mecab.googlecode.com/svn/trunk/mecab/doc/dic-detail.html](MeCab の辞書構造と汎用テキスト変換ツールとしての利用)に公式のユーザースタディがあるが、[http://tmp.blogdns.org/archives/2009/12/mecabwikipediah.html]()こちらのコスト算出式の方が良いらしいのでこちらを採用した
+[http://mecab.googlecode.com/svn/trunk/mecab/doc/dic-detail.html](http://mecab.googlecode.com/svn/trunk/mecab/doc/dic-detail.html)に公式のユーザースタディがあるが、[http://tmp.blogdns.org/archives/2009/12/mecabwikipediah.html](http://tmp.blogdns.org/archives/2009/12/mecabwikipediah.html)こちらのコスト算出式の方が良いらしいのでこちらを採用した
